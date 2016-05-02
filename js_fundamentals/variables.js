@@ -15,7 +15,11 @@
 // Store their birth year in a variable.
 // Calculate their age based on the stored values.
 // Output them to the screen like so: "They are NN years old.", substituting the values.
-
+var currentyear = 2016
+var birthyear = 1992
+var currentage = currentyear - birthyear
+realage = currentage + "I am"
+realage
 // EXERCISE: The Lifetime Supply Calculator
 
 // Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!

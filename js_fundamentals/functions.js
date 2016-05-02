@@ -8,11 +8,16 @@
 // takes 4 arguments: number of children, partner's name, geographic location, job title.
 // outputs your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 // Call that function 3 times with 3 different values for the arguments.
+function fairy(num_children, partners_name, geo_location, job) { return("You will have" + num_children +
+"and a partner named"
++ partners_name + "located at" + geo_location + "while working" + job); }
+fairy("4", "Julia", "123", "web")
 
 // EXERCISE: The Age Calculator
 
 // Forgot how old you are? Calculate it!
-
+function agecalculator(currentyear, age) {return("you are" + (currentyear - age) + "years old");}
+agecalculator(2016 - 24)
 // Write a function named calculateAge that:
 // takes 2 arguments: birth year, current year.
 // calculates the 2 possible ages based on those years.
@@ -56,4 +61,3 @@
 
 // Now store a fahrenheit temperature into a variable.
 // Convert it to celsius and output "NN°F is NN°C."
-
